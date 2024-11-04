@@ -7,6 +7,7 @@
     <meta name="keywords" content="钟任新">
     <meta name="description" content="钟任新">
     <link rel="icon" type="image/png" sizes="553x553" href="assets/img2/sysu_logo.webp">
+    <link rel="stylesheet" href="assets/css/click_hd.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
@@ -98,76 +99,71 @@
         </div>
     </section>
 
+    <!--    <h1>图片展示</h1>-->
+    <!--    <div class="gallery2">-->
+
+    <!--        <img src="assets/highlight/钟任新课题组介绍_04.png" alt="图片2" onclick="openModal(this.src)">-->
+    <!--        <br>-->
+    <!--        <img src="assets/highlight/钟任新课题组介绍_05.png" alt="图片3" onclick="openModal(this.src)">-->
+    <!--        &lt;!&ndash; 可以继续添加更多图片 &ndash;&gt;-->
+    <!--    </div>-->
 
     <section id="research_highlights" class="clean-block clean-gallery dark" style="background: var(--bs-gray-100);">
         <div class="container" style="max-width: 1200px;">
             <div class="block-heading" style="padding-top: 0px;">
-                <h2 class="display-6 text-info">Research Highlights</h2>
+                <h2 class="display-6 text-info">Lab Highlights</h2>
             </div>
-            <div id="reaserch 1" class="block-content" style="margin-bottom: 60px;padding-right: 1%;padding-left: 1%;">
-                <div class="col">
-                    <h1 style="font-size: calc(15pt + 0.7vw);text-align: center;margin-bottom: 20px;">
-                        Research Topic 1
-                    </h1>
-                    <div class="clean-blog-post">
-                        <div class="row" style="margin: 0px;">
-                            <div class="col-lg-7 col-xxl-8" style="margin-bottom: 10px;">
-                                <h3 style="font-family: Adamina, serif;font-size: calc(18px + 0.2vw);"><strong>
-                                    基于大数据的复杂交通状态预测</strong><br></h3>
-                                <div class="info">
-                                    <span style="font-size: calc(14px + 0.2vw);font-family: 'Times New Roman Cyr';"><span
-                                            style="font-weight: bold;font-family: Montserrat, sans-serif;"></span>&nbsp;钟任新</span>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-5 col-xxl-4">
-                                <div class="iframe-container">
-                                    <img src="assets/img2/proj/proj1.png">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="xml" class="block-content" style="margin-bottom: 60px;padding-right: 1%;padding-left: 1%;">
-                        <div class="col">
-                            <h1 style="font-size: calc(15pt + 0.7vw);text-align: center;margin-bottom: 20px;">Research
-                                topic2</h1>
-                            <div class="clean-blog-post" style="padding-bottom: 70px;">
-                                <div class="row" style="margin: 0px;">
-                                    <div class="col-lg-7 col-xxl-8" style="margin-bottom: 10px;">
-                                        <h3 style="font-family: Adamina, serif;font-size: calc(18px + 0.2vw);"><strong>
-                                            一带一路泰国项目</strong><br>
-                                        </h3>
-                                        <div class="info">
-                                            <span style="font-size: calc(14px + 0.2vw);font-family: 'Times New Roman Cyr';"><span
-                                                    style="font-weight: bold;font-family: Montserrat, sans-serif;"></span>&nbsp;钟任新</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 col-xxl-4">
-                                        <img src="assets/img2/proj/proj2.png">
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
+            <div class="gallery2">
+                <img src="assets/highlight/钟任新课题组介绍_03.png" alt="图片1" onclick="openModal(this.src)">
+                <br>
             </div>
-        </div>
-        </div>
+            <div class="gallery2">
+                <img src="assets/highlight/钟任新课题组介绍_04.png" alt="图片1" onclick="openModal(this.src)">
+                <br>
+            </div>
+            <div class="gallery2">
+                <img src="assets/highlight/钟任新课题组介绍_05.png" alt="图片1" onclick="openModal(this.src)">
+                <br>
+            </div>
+            <div class="gallery2">
+                <img src="assets/highlight/钟任新课题组介绍_06.png" alt="图片1" onclick="openModal(this.src)">
+                <br>
+            </div>
+            <div class="gallery2">
+                <img src="assets/highlight/钟任新课题组介绍_07.png" alt="图片1" onclick="openModal(this.src)">
+                <br>
+            </div>
+            <div class="gallery2">
+                <img src="assets/highlight/钟任新课题组介绍_08.png" alt="图片1" onclick="openModal(this.src)">
+                <br>
+            </div>
+            <div class="gallery2">
+                <img src="assets/highlight/钟任新课题组介绍_09.png" alt="图片1" onclick="openModal(this.src)">
+                <br>
+            </div>
+            <div class="gallery2">
+                <img src="assets/highlight/钟任新课题组介绍_10.png" alt="图片1" onclick="openModal(this.src)">
+                <br>
+            </div>
+
+
+            <div class="modal" id="modal" onclick="closeModal()">
+                <img id="modalImage" src="" alt="放大图片">
+            </div>
         </div>
     </section>
+
+
 </main>
 <button class="btn btn-light" data-bss-hover-animate="pulse" id="myBtn" title="Go To Top" onclick="topFunction()"
-        type="button" style="background: rgba(164,164,164,0.42);">
-    <i class="fa fa-chevron-up" style="margin-left: 5px;"></i>
-</button>
+        type="button" style="background: rgba(164,164,164,0.42);"><i class="fa fa-chevron-up"
+                                                                     style="margin-left: 5px;"></i></button>
 <footer class="page-footer dark" style="padding-top: 20px;">
     <div class="footer-copyright">
-        <p>Updated 2024/09</p>
+        <p>Updated 2024/11</p>
     </div>
 </footer>
+<script src="assets/js/click_hd.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/bs-init.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
@@ -186,5 +182,6 @@
 <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>
 <script src="assets/js/Tabbed_slider.js"></script>
 <script src="assets/js/WOWSlider-about-us.js"></script>
+
 </body>
 </html>
